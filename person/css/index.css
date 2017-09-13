@@ -1,0 +1,85 @@
+﻿	*{
+	padding: 0;margin: 0;
+	}
+	a{text-decoration: none;}
+	li{list-style: none;}
+	
+.part1{width:100%;height:610px;position: relative;background: url(../img/part_1_1.png) no-repeat center;}
+.part1 .nav_big{width:100%;height: 80px;background: rgba(0,0,0,0.5);}
+.part1 .nav_big .nav_big_middle{width:1100px;height: 80px;margin: 0 auto;}
+.part1 .nav_big .nav_big_middle img{width:269px;height: 35px;margin: 25px 0 0 52px;float: left;}
+.part1 .nav_big .nav_big_middle ul{float: right;}
+.part1 .nav_big .nav_big_middle li{float: left;transition: all 2s;}
+.part1 .nav_big .nav_big_middle li a{display:inline-block;text-align:center;width: 120px;height:76px;font: 20px/80px "微软雅黑";color: #ffffff;text-decoration: none;}
+.part1 .nav_big .nav_big_middle li span{display:block;width: 120px;height: 4px;background: #cecece;}
+.part1 .nav_big .nav_big_middle li span{opacity:0;transition: all 0.5s;}
+.part1 .nav_big .nav_big_middle li:hover span{opacity: 1;}
+.part1 img{width: 1920px;height:610px;display: block;}
+
+
+
+.part_1{width:100%;height: 670px;background: url(../img/part_1_2.png) no-repeat center;}
+
+.part2{width:100%;height: 760px;background: url(../img/part_2.png) no-repeat center;}
+
+.part3{width:100%;height: 800px;background: url(../img/part_3.png) no-repeat center;}
+
+.part4{width: 100%;height: 990px;background: url(../img/part_4.png) no-repeat center;}
+
+.part5{width: 100%;height: 1060px;background: url(../img/part_5.png) no-repeat center;}
+
+.part6{width: 100%;height: 872px;background: url(../img/part_6.png) no-repeat center;}
+.part6 span{display:block;float:left;margin-top: 221px;}
+
+.part7{width: 100%;}
+.part7 .part7_1{width: 1100px;height: 81px;margin: 0 auto;margin-top:33px ;}
+.part7 .part7_1 img{display: block;margin: 0 auto;}
+.part7 .part7_1 img:nth-child(2){margin-top: 25px;}
+.part7 .part7_2{width: 1100px;height: 36px;margin: 0 auto;border-bottom: solid 2px #000000;}
+.part7 .part7_3{width: 1100px;height: 1031px;margin: 0 auto;background: url(../img/about_1.png) no-repeat center;}
+.part7 .part7_4{width: 1100px;margin: 0 auto;}
+.part7 .part7_4 img{display: block;margin: 0 auto;}
+.part7 .part7_4 img:nth-child(1){margin-top: 88px;}
+.part7 .part7_4 img:nth-child(2){margin-top: 58px;}
+.goldwords{width: 100%;}
+.goldwords img{width:100%;display: block;}
+.goldwords img:nth-child(1){margin-top: 100px;}
+.goldwords img:nth-child(2){width: 193px;height: 41px;margin: 0 auto;margin-top: 82px;}
+.goldwords img:nth-child(3){width: 167px;height: 22px;margin: 0 auto;margin-top: 23px;}
+
+.nav_small{width: 1100px;margin: 0 auto;margin-top: 46px;}
+.nav_small ul{width: 1100px;height: 54px;display: flex;border-bottom:solid 2px #CCCCCC;justify-content: space-around;margin-bottom: 0;}
+.nav_small ul li span{display:block;width: 150px;height: 6px;background: #676767;margin-top: 24px;}
+.nav_small ul li img{display: block;margin: 0 auto;}
+.nav_small ul li span{opacity: 0;transition: all 0.5s;}
+.nav_small ul li:hover span{opacity: 1;}
+
+
+
+.lunbo{width: 100%;height:4704px;position: relative;}
+
+.return_top{display:block; width:70px; height:70px; position:fixed; right:100px; bottom:70px;}
+
+footer{width: 100%;height: 814px;background: url(../img/contact.png) no-repeat center;position: relative;}
+.bottom_1{width: 100%;background: rgba(0,0,0,0.8);position: absolute;top:702px;height: 62px;}
+.bottom_1 ul{width: 800px;height:62px;margin: 0 auto;}
+.bottom_1 ul li{width: 160px;float: left;text-align: center;font: 18px/62px "微软雅黑";}
+.bottom_1 ul li a{color: #FFFFFF;}
+
+.bottom_2{width: 100%;background:rgba(0,0,0,0.8);position: absolute;top:764px;}
+.bottom_2 span{width: 1100px;margin: 0 auto;display: block;text-align: center;color: #FFFFFF;font:14px/50px "微软雅黑";}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
