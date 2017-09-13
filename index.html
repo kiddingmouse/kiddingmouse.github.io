@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>个人设计作品网站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+
+<body>
+<div class="part1">
+
+    <div class="nav_big">
+        <div class="nav_big_middle">
+            <img src="img/KiddingMouse.png"/>
+            <ul>
+                <li><a href="">首页</a><span></span></li>
+                <li><a href="#about">关于我</a><span></span></li>
+                <li><a href="#show">作品展示</a><span></span></li>
+                <li><a href="#contact">联系方式</a><span></span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="part_1">
+
+</div>
+<div class="part2">
+
+</div>
+<div class="part3">
+
+</div>
+<div class="part4">
+
+</div>
+<div class="part5">
+
+</div>
+<div class="part6">
+	<span id="about"></span>
+</div>
+
+<div class="part7">
+    <div class="part7_1">
+        <img src="img/about.png"/>
+        <img src="img/About me.png"/>
+    </div>
+    <div class="part7_2">
+
+    </div>
+    <div class="part7_3">
+
+    </div>
+    <div class="part7_4">
+        <img src="img/SKILL.png"/>
+        <img src="img/icon.png"/>
+    </div>
+
+</div>
+<div  id="show" class="goldwords">
+    <img src="img/goldwords.png"/>
+    <img src="img/showing.png"/>
+    <img src="img/Works Show.png"/>
+</div>
+<div class="nav_small">
+    <ul>
+        <li><a href="nav_APP.html" target="target"><img src="img/nav_APP.png"/></a><span></span></li>
+        <li class="web"><a href="nav_web.html" target="target"><img src="img/nav_web.png"/></a><span></span></li>
+        <li class="gra"><a href="nav_gra.html" target="target"><img src="img/nav_gra.png"/></a><span></span></li>
+        <li class="icon"><a href="nav_icon.html" target="target"><img src="img/nav_icon.png"/></a><span></span></li>
+    </ul>
+</div>
+<div class="lunbo">
+    <iframe name="target" style="width:100%;height:100%;" src="nav_APP.html" frameborder="0"></iframe>
+</div>
+
+
+
+<footer  id="contact">
+	<div class="bottom_1">
+		<ul>
+			<li><a href="http://huaban.com/">花瓣网</a></li>
+			<li><a href="http://www.zcool.com.cn/">站酷网</a></li>
+			<li><a href="https://dribbble.com/">Dribbble</a></li>
+			<li><a href="https://www.behance.net/">Behance</a></li>
+			<li><a href="http://www.uisdc.com/">优设网</a></li>
+		</ul>
+	</div>
+	<div class="bottom_2">
+		<span>
+			&copy;2017. All Rights Reserved KiddingMouse.com
+		</span>
+	</div>
+</footer>
+
+<div class="go-top">
+    <div class="arrow"></div>
+    <div class="stick"></div>
+</div>
+<a href="#top" class="return_top" ><img src="img/return.png"></a>
+</body>
+<script src="http://code.jquery.com/jquery-1.2.3.min.js"></script>
+<script>
+    $(function() {
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 1000)
+                $('div.go-top').show();
+            else
+                $('div.go-top').hide();
+        });
+        $('div.go-top').click(function() {
+            $('html, body').animate({scrollTop: 0}, 1000);
+        });
+    });
+</script>
+
+
+</html>
